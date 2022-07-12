@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleAppleWorkspace">
+    <configuration id=":iosApp:iosApp:Debug" targetName="iosApp" productName="jetpack" productModuleName="iosApp" editableXcodeProjectDir="$PROJECT_DIR$/iosApp/build/apple/iosApp" buildDir="$PROJECT_DIR$/iosApp/build" hasDefaultName="true" isFramework="false">
+      <sourceFolder>$PROJECT_DIR$/iosApp/src/iosAppMain/apple</sourceFolder>
+      <testFolder>$PROJECT_DIR$/iosApp/src/iosAppTest/apple</testFolder>
+      <variants>
+        <buildTarget architecture="arm64" platformName="iphoneos" variant="DEBUG" />
+        <variant productsDirPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Debug-iphoneos" productPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Debug-iphoneos/jetpack.app" />
+      </variants>
+      <variants>
+        <buildTarget architecture="x86_64" platformName="iphonesimulator" variant="DEBUG" />
+        <variant productsDirPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Debug-iphonesimulator" productPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Debug-iphonesimulator/jetpack.app" />
+      </variants>
+      <variants>
+        <buildTarget architecture="arm64" platformName="iphoneos" variant="RELEASE" />
+        <variant productsDirPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Release-iphoneos" productPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Release-iphoneos/jetpack.app" />
+      </variants>
+      <variants>
+        <buildTarget architecture="x86_64" platformName="iphonesimulator" variant="RELEASE" />
+        <variant productsDirPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Release-iphonesimulator" productPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Release-iphonesimulator/jetpack.app" />
+      </variants>
+      <kotlinModuleDependency projectPath=":shared" sourceSetName="iosArm64Main" />
+    </configuration>
+    <configuration id=":iosApp:iosApp:Debug:test" targetName="iosApp" productName="jetpack" productModuleName="iosApp" editableXcodeProjectDir="$PROJECT_DIR$/iosApp/build/apple/iosApp" buildDir="$PROJECT_DIR$/iosApp/build" hasDefaultName="true" isFramework="false">
+      <sourceFolder>$PROJECT_DIR$/iosApp/src/iosAppMain/apple</sourceFolder>
+      <testFolder>$PROJECT_DIR$/iosApp/src/iosAppTest/apple</testFolder>
+      <variants>
+        <buildTarget architecture="arm64" platformName="iphoneos" variant="DEBUG" />
+        <variant productsDirPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Debug-iphoneos" productPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Debug-iphoneos/jetpack.app" />
+      </variants>
+      <variants>
+        <buildTarget architecture="x86_64" platformName="iphonesimulator" variant="DEBUG" />
+        <variant productsDirPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Debug-iphonesimulator" productPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Debug-iphonesimulator/jetpack.app" />
+      </variants>
+      <variants>
+        <buildTarget architecture="arm64" platformName="iphoneos" variant="RELEASE" />
+        <variant productsDirPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Release-iphoneos" productPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Release-iphoneos/jetpack.app" />
+      </variants>
+      <variants>
+        <buildTarget architecture="x86_64" platformName="iphonesimulator" variant="RELEASE" />
+        <variant productsDirPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Release-iphonesimulator" productPath="$PROJECT_DIR$/iosApp/build/bin/iosApp/Release-iphonesimulator/jetpack.app" />
+      </variants>
+      <kotlinModuleDependency projectPath=":shared" sourceSetName="iosArm64Main" />
+    </configuration>
+  </component>
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/androidApp" />
+            <option value="$PROJECT_DIR$/iosApp" />
+            <option value="$PROJECT_DIR$/shared" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

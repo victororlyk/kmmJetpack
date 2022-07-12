@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.user.androidApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:3:5-13:19
+12        android:allowBackup="false"
+12-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:4:13-40
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] /Users/viktororlyk/.gradle/caches/transforms-3/22f7a2d41b70eac2d6042272ec7cf5f3/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:supportsRtl="true"
+16-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:5:13-39
+17        android:theme="@style/AppTheme" >
+17-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:6:13-44
+18        <activity
+18-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:7:9-12:20
+19            android:name="me.user.androidApp.MainActivity"
+19-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:7:19-47
+20            android:exported="true" >
+20-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:7:48-71
+21            <intent-filter>
+21-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:8:13-11:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:9:17-68
+22-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:9:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:10:17-76
+24-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:10:27-74
+25            </intent-filter>
+26        </activity>
+27
+28        <provider
+28-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+29            android:name="androidx.startup.InitializationProvider"
+29-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+30            android:authorities="me.user.androidApp.androidx-startup"
+30-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+31            android:exported="false" >
+31-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+32            <meta-data
+32-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+33                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+33-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+34                android:value="androidx.startup" />
+34-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+35            <meta-data
+35-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viktororlyk/.gradle/caches/transforms-3/170850739ebaa08bfda01a6ff76680d2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+36                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viktororlyk/.gradle/caches/transforms-3/170850739ebaa08bfda01a6ff76680d2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+37                android:value="androidx.startup" />
+37-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viktororlyk/.gradle/caches/transforms-3/170850739ebaa08bfda01a6ff76680d2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+38        </provider>
+39    </application>
+40
+41</manifest>
