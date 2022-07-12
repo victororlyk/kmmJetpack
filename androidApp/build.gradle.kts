@@ -11,6 +11,8 @@ repositories {
     jcenter()
 }
 
+val composeVersion = "1.3.0-alpha01"
+
 kotlin {
     android()
     sourceSets {
@@ -26,11 +28,17 @@ kotlin {
 }
 
 android {
-    compileSdkVersion(31)
+    buildFeatures {
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = composeVersion
+    }
+    compileSdkVersion(32)
     defaultConfig {
         applicationId = "me.user.androidApp"
         minSdkVersion(24)
-        targetSdkVersion(31)
+        targetSdkVersion(32)
         versionCode = 1
         versionName = "1.0"
     }
@@ -43,4 +51,10 @@ android {
             isMinifyEnabled = false
         }
     }
+}
+
+dependencies {
+    implementation("androidx.activity:activity-compose:1.4.0")
+    implementation("androidx.compose.material:material:$composeVersion")
+    implementation("androidx.compose.ui:ui-tooling:$composeVersion")
 }

@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="24"
 8-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="31" />
+9        android:targetSdkVersion="32" />
 9-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml
 10
 11    <application
@@ -39,28 +39,66 @@
 24-->/Users/viktororlyk/development/side/meetings/jetpack/androidApp/src/main/AndroidManifest.xml:10:27-74
 25            </intent-filter>
 26        </activity>
-27
-28        <provider
-28-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-29            android:name="androidx.startup.InitializationProvider"
-29-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-30            android:authorities="me.user.androidApp.androidx-startup"
-30-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-31            android:exported="false" >
-31-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-32            <meta-data
-32-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-33                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-33-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-34                android:value="androidx.startup" />
-34-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+27        <activity
+27-->[androidx.compose.ui:ui-tooling:1.3.0-alpha01] /Users/viktororlyk/.gradle/caches/transforms-3/7827452d3f78aa5006009d4ca1ccf042/transformed/ui-tooling-1.3.0-alpha01/AndroidManifest.xml:24:9-26:39
+28            android:name="androidx.compose.ui.tooling.PreviewActivity"
+28-->[androidx.compose.ui:ui-tooling:1.3.0-alpha01] /Users/viktororlyk/.gradle/caches/transforms-3/7827452d3f78aa5006009d4ca1ccf042/transformed/ui-tooling-1.3.0-alpha01/AndroidManifest.xml:25:13-71
+29            android:exported="true" />
+29-->[androidx.compose.ui:ui-tooling:1.3.0-alpha01] /Users/viktororlyk/.gradle/caches/transforms-3/7827452d3f78aa5006009d4ca1ccf042/transformed/ui-tooling-1.3.0-alpha01/AndroidManifest.xml:26:13-36
+30
+31        <provider
+31-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+32            android:name="androidx.startup.InitializationProvider"
+32-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+33            android:authorities="me.user.androidApp.androidx-startup"
+33-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+34            android:exported="false" >
+34-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
 35            <meta-data
-35-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viktororlyk/.gradle/caches/transforms-3/170850739ebaa08bfda01a6ff76680d2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-36                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-36-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viktororlyk/.gradle/caches/transforms-3/170850739ebaa08bfda01a6ff76680d2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+35-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+36-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
 37                android:value="androidx.startup" />
-37-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viktororlyk/.gradle/caches/transforms-3/170850739ebaa08bfda01a6ff76680d2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-38        </provider>
-39    </application>
-40
-41</manifest>
+37-->[androidx.emoji2:emoji2:1.0.0] /Users/viktororlyk/.gradle/caches/transforms-3/4d92c4cf197d978f9f53d992d06b2843/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+38            <meta-data
+38-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viktororlyk/.gradle/caches/transforms-3/170850739ebaa08bfda01a6ff76680d2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viktororlyk/.gradle/caches/transforms-3/170850739ebaa08bfda01a6ff76680d2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+40                android:value="androidx.startup" />
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viktororlyk/.gradle/caches/transforms-3/170850739ebaa08bfda01a6ff76680d2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+41            <meta-data
+41-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:30:13-32:52
+42                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+42-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:31:17-85
+43                android:value="androidx.startup" />
+43-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:32:17-49
+44        </provider>
+45
+46        <receiver
+46-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:35:9-47:20
+47            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+47-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:36:13-76
+48            android:directBootAware="false"
+48-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:37:13-44
+49            android:enabled="true"
+49-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:38:13-35
+50            android:exported="true"
+50-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:39:13-36
+51            android:permission="android.permission.DUMP" >
+51-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:40:13-57
+52            <intent-filter>
+52-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:41:13-43:29
+53                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+53-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:42:17-91
+53-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:42:25-88
+54            </intent-filter>
+55            <intent-filter>
+55-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:44:13-46:29
+56                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+56-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:45:17-85
+56-->[androidx.profileinstaller:profileinstaller:1.2.0-rc01] /Users/viktororlyk/.gradle/caches/transforms-3/bb4e6d5980ce4c63ec5d5d5b2a54e35e/transformed/profileinstaller-1.2.0-rc01/AndroidManifest.xml:45:25-82
+57            </intent-filter>
+58        </receiver>
+59    </application>
+60
+61</manifest>
