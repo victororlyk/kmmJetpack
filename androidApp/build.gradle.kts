@@ -22,6 +22,9 @@ kotlin {
                 implementation("com.google.android.material:material:1.5.0")
                 implementation("androidx.appcompat:appcompat:1.4.1")
                 implementation("androidx.constraintlayout:constraintlayout:2.1.3")
+                implementation("androidx.activity:activity-compose:1.4.0")
+                implementation("androidx.compose.material:material:$composeVersion")
+                implementation("androidx.compose.ui:ui-tooling:$composeVersion")
             }
         }
     }
@@ -51,10 +54,4 @@ android {
             isMinifyEnabled = false
         }
     }
-}
-
-dependencies {
-    implementation("androidx.activity:activity-compose:1.4.0")
-    implementation("androidx.compose.material:material:$composeVersion")
-    implementation("androidx.compose.ui:ui-tooling:$composeVersion")
 }
